@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    function f1() {
+        a=Number(document.form1.in1.value);
+        b=Number(document.form1.in2.value);
+        //document.form1.in2.value=25；d
+        document.form1.in3.value=a+b;
+       // window.alert("a+b=",(a+b));
+    }
+</script>
+<form name="form1">
+    a:<input type="text" name="in1"><br>
+    b:<input type="text" name="in2"><br>
+    <input type="button" value="求和" onclick="f1();"><br>
+    a+b:<input type="text" name="in3"><br>
+</form>
+</body>
+</html>

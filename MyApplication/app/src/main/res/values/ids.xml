@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name" type="id">name</item>
+    <item name="password" type="id"/>
+    <item name="sure_bt" type="id"/>
+    <item name="nosure_bt" type="id"/>
+</resources>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="five_表单开发:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/five__war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="five_表单开发/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="five_表单开发" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

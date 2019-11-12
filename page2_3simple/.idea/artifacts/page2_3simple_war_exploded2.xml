@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="page2_3simple:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/page2_3simple_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="page2_3simple" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="page2_3simple/web/Web" />
+    </root>
+  </artifact>
+</component>
